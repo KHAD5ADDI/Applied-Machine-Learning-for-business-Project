@@ -15,14 +15,25 @@ Ce projet analyse des donnees de crimes (Chicago) et d'interventions (Seattle) a
 - Marion Gomes De Sousa
 
 ## Execution rapide
-1) Creer un environnement Python
-2) Installer les dependances
+1) Creer et synchroniser l'environnement Python avec uv
 
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn xgboost joblib requests
+uv sync --group dev
 ```
 
-3) Ouvrir un notebook et executer les cellules
+2) Lancer JupyterLab
+
+```bash
+uv run jupyter lab
+```
+
+3) Lancer le simulateur Streamlit
+
+```bash
+uv run streamlit run src/simulator/app.py
+```
+
+4) Ouvrir un notebook et executer les cellules
 
 ## Structure
 - Notebooks : *.ipynb
