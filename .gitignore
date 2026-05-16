@@ -2,3 +2,6 @@
 *.pkl
 __pycache__/
 .venv/
+data/
+artifacts/
+*.joblib

@@ -8,6 +8,11 @@ Ce projet analyse des donnees de crimes (Chicago) et d'interventions (Seattle) a
 - Donnees : fichiers CSV a la racine
 - Artifacts : modeles et sorties generes (dossier artifacts)
 
+## Notebooks
+- `notebooks/chicago_crime_ML_v3.ipynb` : notebook source complet
+- `notebooks/01_chicago_crime_eda.ipynb` : EDA dediee
+- `notebooks/02_chicago_crime_predictions.ipynb` : pipeline predictions et sauvegarde modeles
+
 ## Equipe
 - Alexis Arnaud
 - Khadidja Addi
